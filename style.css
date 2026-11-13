@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f7ff;
+  text-align: center;
+  padding: 30px;
+}
+
+div {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4a6fa5;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #5b7db1;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccd6e0;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #6c91c2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #5278aa;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eef5ff;
+  border-radius: 10px;
+  color: #405a78;
+}
+
+#history {
+  margin-top: 15px;
+  text-align: left;
+}
+
+#history p {
+  background: #f7f9fc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.title-box {
+  background: linear-gradient(135deg, #e4f3ff, #f5eaff);
+  border: 2px solid #d2e6ff;
+  border-radius: 18px;
+  padding: 18px;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(100, 140, 200, 0.15);
+}
+
+.title-box h1 {
+  color: #5278aa;
+  font-size: 26px;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0;
+  animation: moveRight 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100px);
+  }
+}
+/.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px auto;
+}
+
+.tab-buttons button {
+  background: #789bc7;
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+#allRecordsPage {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#allHistory p {
+  background: #eef5ff;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: #5278aa;
+}
